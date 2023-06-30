@@ -1,19 +1,23 @@
 export const NavItems =[
     {
         title:"About",
-        url:"/about"
+        url:"/about",
+        cname: "nav-links"
     },
     {
         title:"Menu",
-        url:"/Menu"
+        url:"/Menu",
+        cname: "nav-links"
     },
     {
         title:"Gallery",
-        url:"/Gallery"
+        url:"/Gallery",
+        cname: "nav-links"
     },
     {
         title:"Contact",
-        url:"/Contact"
+        url:"/Contact",
+        cname: "nav-links"
     }
    
 ]
