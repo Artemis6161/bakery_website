@@ -43,7 +43,7 @@ const Navbar = () => {
     
     })}
     <Link  to={"/signup"} id="btn" className='nav-links-mobile'  >
-    <button>Sign Up</button>
+    <button >Sign Up</button>
     </Link>
   
     <div>
