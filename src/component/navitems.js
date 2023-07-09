@@ -14,10 +14,19 @@ export const NavItems =[
         url:"/Gallery",
         cname: "nav-links"
     },
+  
     {
         title:"Contact",
         url:"/Contact",
         cname: "nav-links"
-    }
+    },
+    {
+        title : "Sign Up",
+url: "/signup",
+cname : "nav-links-mobile",
+
+
+    },
+   
    
 ]

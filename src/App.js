@@ -1,11 +1,12 @@
 import React from 'react'
 
 import Home from "./component/home"
+import Main from "./component/main"
 import Gallery from "./component/gallery"
 import About from "./component/about"
 import Contact from "./component/contact"
 import Signup from "./component/signup"
-import Menu from "./component/menu"
+import Menu from "./component/menu/menu.js"
 import Navbar from './component/navbar'
 import "../src/App.css"
 import {
@@ -26,8 +27,8 @@ const App = () => {
       <Routes>
       
        
+          {/* <Route path="/" element={<Main/>}></Route> */}
           <Route path="/" element={<Home/>}></Route>
-         
           <Route path="/about" element={<About/>}></Route>
           <Route path="/menu" element={<Menu/>}></Route>
           <Route path="/gallery" element={<Gallery/>}></Route>

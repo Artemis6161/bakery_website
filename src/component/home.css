@@ -1,139 +1,201 @@
 .intro{
     display: flex;
-    height:77vh;
-    /* margin-top:5rem; */
-   
+    height:100vh;
+
 }
 .i-left{
     
 display: flex;
-position: relative;
+
 flex: 1;
 flex-direction: column;
+margin-top:7rem;
+    text-align: start;
 
 }
-.left{
-    padding: 7% 25%;
-}
+
 .i-name{
     display: flex;
     flex-direction: column;
+    width: 55%;
+    padding: 5% 0 5rem 20rem;
+    
+    text-align: start;
+  
     
 }
 .i-name :nth-child(1){
     font-weight: bold;
     font-size: 3rem;
+    text-align: start;
 }
 .i-name :nth-child(2){
     font-weight: bold;
     font-size: 3rem;
+    text-align: start;
 }
 .i-name :nth-child(3){
    width: 70%;
    line-height: 1.5;
+   text-align: start;
 }
-/* .pepper{
-    width: 290px;
-    height: 210px;
-  
-    margin:0 0 0 66rem;
 
-    position: absolute;
-   }
-.one{
+   .i-btn{
+    margin: 0 2rem 0 0rem;
    
-    transform: scale(2.5);
-    margin:20rem 0 0 52rem;
-    position: absolute;
-   }
-   
-.two{
-    width: 148px;
-    height: 147px;
-  
-    margin:30rem 0 0 65rem;
-    position: absolute;
-}
-.three{
-    width: 148px;
-    height: 147px;
-  
-    margin:22rem 0 0 80rem;
-    position: absolute;
-} */
-
+   } 
 .btn{
-    display: flex;
-    flex-direction: row;
-
+  margin: 0 40rem 0 0rem;
 }
 
- /* width: 148px;
-    height: 147px; one */
 
-/* .pizza{
-width:470px;
-height: 460px;
-transform: rotate(-61deg);
-padding:30px;
-margin-left: 10rem;
-} */
+
 .leaf{
     width: 190px;
     height: 276px;
-    padding-bottom: 2rem;
+ 
+  
 }
 
 .i-right{
     
     flex:1;
-   /* position: absolute; */
+   position: absolute;
    
 }
+
+/* right side */
 .i-right>*{
     position: absolute;
     z-index: 1;
+    top: 3rem;
 }
+/* circle */
 .i-right :nth-child(1){
-    width: 500px;
-    height: 500px;
+    width: 460px;
+    height: 460px;
     border-radius: 50%;
     border: 10px solid rgb(238, 238, 241);
-    position: absolute;
-    margin: 45px 0 0 10rem;
+    /* position: absolute; */
+  
+    top: 15rem;
+    left:55rem
    }
+   /* pepper */
    .i-right :nth-child(2){
-    transform: scale(4.2);
-    margin:5rem 0 0 28rem;
+    transform: scale(0.6);
+    margin:5rem 0 0 58rem;
 
-    position: absolute;
+    /* position: absolute; */
    }
+/* pizza */
    .i-right :nth-child(3){
-    width: 485px;
-    height: 475px;
-    /* transform: scale(1); */
+    width: 463px;
+    height: 453px;
+    
     transform: rotate(-61deg);
     padding:30px;
-    margin-left: 12rem;
+    margin:10rem 0 0 57rem;
+    /* position: absolute; */
    }
    .i-right :nth-child(4){
-    transform: scale(2.5);
-    margin:23rem 0 0 10rem;
-    position: absolute;
+    transform: scale(0.8);
+    margin:26rem 0 0 51rem;
+    /* position: absolute; */
 
    }
    .i-right :nth-child(5){
-    transform: scale(2.5);
-    margin:32rem 0 0 23rem;
-    position: absolute;
+    transform: scale(0.8);
+    margin:36rem 0 0 65rem;
+    /* position: absolute; */
    }
    .i-right :nth-child(6){
-    transform: scale(2.5);
-    margin:25rem 0 0 38rem;
-    position: absolute;
+    transform: scale(0.8);
+    margin:30rem 0 0 78rem;
+    /* position: absolute; */
    }
+   /* corr */
    .i-right :nth-child(7){
-    transform: scale(1.5);
-    margin:30rem 0 0 15rem;
-    position: absolute;
+    transform: scale(0.8);
+    margin:35rem 0 0 60rem;
+    /* position: absolute; */
+   }
+   @media screen and (max-width: 480px){
+
+    .intro {
+        flex-direction: column;
+    
+     }
+     .i-name{
+       width:120%;
+     
+        padding: 7% 25%;
+      
+        
+    }
+      /* .i-right :nth-child(1){
+        border: 10px solid rgb(49, 49, 168);
+  
+      } */
+      .i-right :nth-child(2){
+       
+        transform: scale(0.5);
+        margin:34rem 0 0  30px;
+       
+      }
+      .i-right :nth-child(3){
+        transform: rotate(-61deg);
+        width: 370px;
+        height: 360px;
+       margin:40rem 0 0  50px;
+        
+       
+      }
+      .i-right :nth-child(4){
+       
+        transform: scale(0.5);
+        margin:53rem 0 0 0;
+    
+       
+      }
+      .i-right :nth-child(5){
+       
+        transform: scale(0.5);
+        margin:60rem 0 0 9rem;
+        
+       
+      }
+      .i-right :nth-child(6){
+       
+        transform: scale(0.5);
+        margin:54rem 0 0 19rem;
+        
+       
+      }
+      
+      .i-right :nth-child(7){
+       
+        transform: scale(0.5);
+        
+        margin:60rem 0 0 6rem;
+        
+       
+      }
+      .i-btn{
+        margin: 0 2rem 0 4rem;
+       } 
+       .i-name :nth-child(1){
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .i-name :nth-child(2){
+        font-weight: bold;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    .i-name :nth-child(3){
+        line-height: 1.2;
+    }
+     
+      
    }

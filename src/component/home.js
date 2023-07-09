@@ -6,13 +6,17 @@ import two from "../assets/pngfind 1.png"
 import three from "../assets/Meal-PNG-Download-Image 1.png"
 import pepper from "../assets/pngwing 16.png"
 import leaf from "../assets/leaf.png"
-
+import {
+  
+  Link,
+ 
+} from "react-router-dom";
 import "./home.css"
 const home = () => {
   return (
     <div className='intro'>
       <div className="i-left">
-<div className='left'> 
+
 <div className="i-name">
 
   <span> 
@@ -23,21 +27,17 @@ const home = () => {
 
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe at inventore iusto cum fugiat! Asperiores saepe recusandae voluptates vitae, alias deserunt quae, quos aperiam id debitis, doloremque beatae aliquam eos?</span>
 </div>
-<div className="btn">
-<button className='i-button'>Our Menu</button>
-<button className='i-button'>About As</button>
-</div>
+  <Link to="contact" smooth={true} spy={true} className='btn'>
 
- </div>
+<button className='button i-btn'>Our Menu</button>
+<button className='button i-btn'>About As</button>
+
+</Link>
+
+ 
 <img src={leaf} alt="leaf"  className='leaf'/>
       </div>
-      {/* <span className='circle'>
-
-</span> */}
-{/* <img src={pepper} alt="" className='pepper'/>
-<img src={one} alt="" className='one'/>
-<img src={two} alt="" className='two'/>
-<img src={three} alt="" className='three'/> */}
+  
 
 
 
