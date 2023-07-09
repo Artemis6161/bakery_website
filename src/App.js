@@ -6,7 +6,7 @@ import Gallery from "./component/gallery"
 import About from "./component/about"
 import Contact from "./component/contact"
 import Signup from "./component/signup"
-import Menu from "./component/menu/menu.js"
+import Menu from "./component/menu.js"
 import Navbar from './component/navbar'
 import "../src/App.css"
 import {
@@ -27,8 +27,8 @@ const App = () => {
       <Routes>
       
        
-          {/* <Route path="/" element={<Main/>}></Route> */}
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/" element={<Main/>}></Route>
+          {/* <Route path="/" element={<Home/>}></Route> */}
           <Route path="/about" element={<About/>}></Route>
           <Route path="/menu" element={<Menu/>}></Route>
           <Route path="/gallery" element={<Gallery/>}></Route>

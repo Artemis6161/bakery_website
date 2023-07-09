@@ -6,6 +6,7 @@ import two from "../assets/pngfind 1.png"
 import three from "../assets/Meal-PNG-Download-Image 1.png"
 import pepper from "../assets/pngwing 16.png"
 import leaf from "../assets/leaf.png"
+import Menu from "../component/menu"
 import {
   
   Link,
@@ -55,8 +56,10 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe at inventore ius
 
       </div>
 
-    
+     
     </div>
+   
+    
   )
 }
 

@@ -68,7 +68,7 @@ margin-top:7rem;
 .i-right>*{
     position: absolute;
     z-index: 1;
-    top: 3rem;
+    
 }
 /* circle */
 .i-right :nth-child(1){
@@ -76,9 +76,9 @@ margin-top:7rem;
     height: 460px;
     border-radius: 50%;
     border: 10px solid rgb(238, 238, 241);
-    /* position: absolute; */
+    position: absolute;
   
-    top: 15rem;
+    top: 13rem;
     left:55rem
    }
    /* pepper */
@@ -106,7 +106,7 @@ margin-top:7rem;
    }
    .i-right :nth-child(5){
     transform: scale(0.8);
-    margin:36rem 0 0 65rem;
+    margin:37rem 0 0 65rem;
     /* position: absolute; */
    }
    .i-right :nth-child(6){
@@ -117,7 +117,7 @@ margin-top:7rem;
    /* corr */
    .i-right :nth-child(7){
     transform: scale(0.8);
-    margin:35rem 0 0 60rem;
+    margin:38rem 0 0 60rem;
     /* position: absolute; */
    }
    @media screen and (max-width: 480px){

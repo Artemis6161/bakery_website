@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './navbar'
 import Home from "./home"
-import Main from "./main"
+import Menu from "./menu"
 import Gallery from "./gallery"
 import About from "./about"
 import Contact from "./contact"
@@ -10,8 +10,9 @@ import Signup from "./signup"
 const main = () => {
   return (
     <div>
-      <Navbar/>
-      <About/>
+      {/* <Navbar/> */}
+      <Home/>
+      <Menu/>
     </div>
   )
 }
